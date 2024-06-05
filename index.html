@@ -1,67 +1,108 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ethan Gelinas | Portfolio</title>
-  <link
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-			rel="stylesheet"
-		/>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Ethan Gelinas | Portfolio</title>
+	<link
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		rel="stylesheet"
+	/>
 </head>
 <body>
-  <!-- Header Section -->
-  <header class="bg-dark text-white py-4 px-3 px-md-5 d-flex align-items-center justify-content-between">
-    <div class="h2 font-weight-bold">Ethan Gelinas</div>
-    <nav>
-      <a href="#" class="mx-2 text-white text-decoration-none hover:underline">Home</a>
-      <a href="#" class="mx-2 text-white text-decoration-none hover:underline">About</a>
-      <a href="#" class="mx-2 text-white text-decoration-none hover:underline">Projects</a>
-      <a href="#" class="mx-2 text-white text-decoration-none hover:underline">Contact</a>
-    </nav>
-  </header>
+	<!-- Header Section -->
+	<header class="bg-dark text-white py-4 px-3 px-md-5 d-flex align-items-center justify-content-between">
+		<div class="h2 font-weight-bold">Ethan Gelinas</div>
+		<nav>
+			<a href="#home" class="mx-2 text-white text-decoration-none">Home</a>
+			<a href="#about" class="mx-2 text-white text-decoration-none">About</a>
+			<a href="#projects" class="mx-2 text-white text-decoration-none">Projects</a>
+			<a href="#contact" class="mx-2 text-white text-decoration-none">Contact</a>
+		</nav>
+	</header>
 
-  <!-- Hero -->
-  <div class="bg-dark text-white py-5 px-4 px-md-5 px-lg-5">
-    <h1 class="display-4 display-md-3 display-lg-1 font-weight-bold mb-4">Hi, I'm a Backend Developer</h1>
-    <p class="lead mb-8">
-      Passionate about building robust server-side solutions.
-    </p>
-    <button
-      id="viewProjectsBtn"
-      class="btn btn-primary btn-lg"
-    >
-      View Projects
-    </button>
-  </div>
+	<!-- Hero -->
+	<div id="home" class="bg-dark text-white py-5 px-4 px-md-5 px-lg-5">
+		<h1 class="display-4 display-md-3 display-lg-1 font-weight-bold mb-4">Hi, I'm a Backend Developer</h1>
+		<p class="lead mb-8">Passionate about building robust server-side solutions.</p>
+	</div>
 
-  <!-- About Me Section -->
-  <div class="bg-light text-dark py-5 px-4 px-sm-3 px-lg-4">
-    <div class="container text-center">
-      <h2 class="display-5 font-weight-bold text-dark">
-        Hi, I'm Ethan Gelinas 
-        <!-- Add Photo? -->
-      </h2>
-      <p class="mt-3 mx-auto text-muted">
-        I'm a back-end developer with a passion for problem-solving in programming. 
-        With a strong foundation in computer science and hands-on experience in Java, Python, and JavaScript (TypeScript), 
-        I'm ready to kickstart my career in tech. 
-        My projects, from personal tools to a full-stack game, reflect my love for logical problem-solving. 
-        Eager to learn and collaborate on innovative projects. Outside of coding, I enjoy singing, camping, and strategy games.
-      </p>
-    </div>
-  </div>
-  
-  Projects
+	<!-- About Me Section -->
+	<div id="about" class="bg-light text-dark py-5 px-4 px-sm-3 px-lg-4">
+		<div class="container text-center">
+			<h2 class="display-5 font-weight-bold text-dark">Hi, I'm Ethan Gelinas</h2>
+			<p class="mt-3 mx-auto text-muted">
+				I'm a back-end developer with a passion for problem-solving in programming. With a strong foundation in computer science and hands-on experience in Java, Python, and JavaScript (TypeScript), I'm ready to kickstart my career in tech. My projects, from personal tools to a full-stack game, reflect my love for logical problem-solving. Eager to learn and collaborate on innovative projects. Outside of coding, I enjoy singing, camping, and strategy games.
+			</p>
+		</div>
+	</div>
 
-  Skills
-  
-  Blog?
-  
-  Contact
-  
-  Footer
-  
+	<!-- Projects -->
+	<div id="projects" class="bg-light py-5">
+		<div class="container px-4 px-sm-3 px-lg-4">
+			<h2 class="display-5 font-weight-bold text-dark text-center mb-4">Projects</h2>
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+				<div class="col">
+					<div class="card h-100 bg-white text-dark">
+						<img src="https://placehold.co/400" alt="Project 1" class="card-img-top" />
+						<div class="card-body">
+							<h3 class="card-title font-weight-bold mb-2">Monster Battle</h3>
+							<p class="card-text text-muted">Description of Project 1</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100 bg-white text-dark">
+						<img src="https://placehold.co/400" alt="Project 2" class="card-img-top" />
+						<div class="card-body">
+							<h3 class="card-title font-weight-bold mb-2">Task API</h3>
+							<p class="card-text text-muted">Description of Project 2</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100 bg-white text-dark">
+						<img src="https://placehold.co/400" alt="Project 3" class="card-img-top" />
+						<div class="card-body">
+							<h3 class="card-title font-weight-bold mb-2">Project 3</h3>
+							<p class="card-text text-muted">Description of Project 3</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact Section -->
+	<section id="contact" class="contact-section">
+		<div class="container">
+			<!-- Contact Info -->
+			<div class="contact-info">
+				<p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+				<p>Phone: <a href="tel:+1234567890">+123-456-7890</a></p>
+			</div>
+
+			<!-- Social Media Links -->
+			<div class="social-media">
+				<a href="https://www.linkedin.com/in/ethan-gelinas-3a1612251" target="_blank">LinkedIn</a>
+				<a href="https://github.com/WritingHusky" target="_blank">GitHub</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-dark text-white py-4 px-3 px-md-4">
+		<div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+			<p class="text-center text-md-left mb-0">&copy; 2024 Ethan Gelinas</p>
+			<nav class="d-flex mt-3 mt-md-0">
+				<a href="#home" class="text-white text-decoration-none mx-2">Home</a>
+        <a href="#about" class="text-white text-decoration-none mx-2">About</a>
+				<a href="#projects" class="text-white text-decoration-none mx-2">Projects</a>
+				<a href="#contact" class="text-white text-decoration-none mx-2">Contact</a>
+			</nav>
+		</div>
+	</footer>
 </body>
 </html>
