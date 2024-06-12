@@ -1,0 +1,12 @@
+<!-- Project 2 Still underdevlopment (not in a showable state) -->
+					<!-- <a class="col" href="">
+					<div class="card h-100 bg-white text-dark">
+						<img src="https://placehold.co/400" alt="Project 2" class="card-img-top" />
+						<div class="card-body">
+							<h3 class="card-title font-weight-bold mb-2">Task API</h3>
+							<p class="card-text text-muted"> Task API is a project designed to demonstrate my proficiency in creating standard RESTful APIs. 
+								It allows CRUD operations to manage tasks and adheres to conventional API standards, unlike the API developed for MonsterBattler. 
+								This project highlights my ability to create well-structured, maintainable APIs using best practices.</p>
+						</div>
+					</div>
+				</a> -->
